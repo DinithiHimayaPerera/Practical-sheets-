@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        console.log("Hello World!");
+
+        console.log("2. Variable Declaration ");
+
+        console.log(y);
+        var y=20;
+        console.log(y);
+
+        let d=5;
+        console.log(d);
+        
+        let name01="Dinithi";
+        let age01= 22;
+        let country01 = "Sri Lanka";
+
+        console.log("Using let");
+        console.log("Name :",name01);
+        console.log("Age :",age01);
+        console.log("Country :",country01);
+
+        const name02="Himaya";
+        const age02= 23;
+        const country02 = "Canada";
+
+        console.log("Using const= they does not change");
+        console.log("Name :",name02);
+        console.log("Age :",age02);
+        console.log("Country :",country02);
+        
+        var name03="Himaya";
+        var age03= 23;
+        var country03 = "Canada";
+
+        console.log("Using var");
+        console.log("Name :",name03);
+        console.log("Age :",age03);
+        console.log("Country :",country03);
+
+        console.log("3.  Reassigning Variables ");
+
+        var name03="Sathmi";
+        var age03= 25;
+        var country03 = "USA";
+
+        console.log("Using var");
+        console.log("Name :",name03);
+        console.log("Age :",age03);
+        console.log("Country :",country03);
+
+        console.log("4. Basic Operators ");
+
+        let a=10;
+        let b=5;
+        let c=a+b;
+        let p=a-b;
+        let e=a*b;
+        let f=a%b;
+        let g=a/b;
+        var z=5;
+
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        console.log(p);
+        console.log(e);
+        console.log(f);
+        console.log(g);
+
+        console.log("5. Increment and Decrement");
+    
+        a++;
+        console.log("a++=",a);
+
+        b--;
+        console.log("b--=",b);
+
+        console.log("6. Comparison Operators ");
+
+        console.log(a<b);
+        console.log(a>b);
+        console.log(a==b);
+        console.log(a===z);
+
+        console.log("7. Logical Operators  ");
+
+        let w=true;
+        let x=false;
+        console.log(w && true);
+        console.log(w || x);
+        console.log(w=!x);
+
+        console.log(" 8. Variable Scope Operators  ");
+
+        function calculation(){
+            var salutation="Hello !";
+            console.log(salutation);
+        }
+
+        calculation();
+        salutation=30;
+        console.log(salutation);
+
+        console.log(typeof salutation);
+
+        const student= new Object();
+            student.fullName ="Dinithi Himaya";
+            student.age=22;
+            student.grade="A";
+            greet= calculation();
+      
+
+        console.log(student.age);
+        console.log(student.fullName);
+        console.log(student.grade);
+
+        console.log(student);
+
+        
+
+        console.log("11. Modify Object ");
+
+        student.grade="A+";
+        console.log(student.grade);
+
+        console.log("add a new property to object ");
+        student.city="London";
+        console.log(student);
+
+        console.log("create property from the  object ");
+
+        delete student.city;
+    
+       
+
+            let person={
+            personName :"Emma",
+            age:30,
+            greet: function(){
+                console.log("Hello, I am ${personName} ")
+            }
+        };
+
+        console.log(person);
+
+        let score=85;
+
+        if(score>=90){
+            console.log("Excellent")
+        }
+        else(
+            console.log("Good")
+        )
+
+        console.log("9. Block Scope with let ")
+
+        if(true){
+            let q=10;
+            console.log("Inside value: ",q)
+        }
+       /* console.log("Outside value :",q)*/
+
+       console.log("10. Create an Object ")
+
+      let patient={
+        patientName :"Dino"
+
+      };
+      console.log(patient.patientName)
+
+        console.log("14. Array Operations" )
+
+let numbers = [1, 2, 3, 4, 5];
+
+let fruits=["Apple","Orange","pineapple"];
+console.log(fruits[0])
+fruits.push("Lemon");
+fruits.shift();
+console.log(fruits);
+
+console.log("print array through loops")
+
+for(let i =0; i<fruits.length; i++){
+    console.log(fruits[i]);
+}
+
+console.log("Use the forEach() method to print each fruit name in uppercase letters.")
+
+fruits.forEach(function(fruits){
+    console.log(fruits.toUpperCase());
+}
+)
+
+console.log("17. Strings Basics ")
+
+let massage="JavaScript is fun !";
+console.log(massage)
+
+console.log("Length:",massage.length);
+console.log("Uppercase",massage.toUpperCase());
+console.log("Index of fun :", massage.indexOf("Fun"));
+
+console.log("18. String Concatenation ")
+
+let firstName="Dinithi";
+
+let lastName="Himaya";
+
+let fullName01="Full Name :" +firstName+" "+lastName;
+
+console.log(fullName01);
+
+let fullName02=firstName+ " " +lastName;
+
+console.log(fullName02);
+
+console.log("19.Functions");
+
+function sumation(a,b){
+    return a*b;
+}
+
+let result=sumation(4,5);
+console.log("Summation :",result);
+
+function multiply(x,y){
+    return x*y;
+}
+
+let num01=Number(prompt("Enter a number:"));
+let num02=Number(prompt("Enter a number :"));
+
+let answer= multiply(num01,num02);
+
+console.log("Answer :", answer);
+
+
+console.log("20. Combined Challenge ");
+
+let numberArray=[1,2,3,4,5,6,7,8,9];
+
+let sum=0;
+
+for(let i=0; i<numberArray.length;i++){
+    sum=sum+numberArray[i];
+}
+
+console.log("Total :",sum);
