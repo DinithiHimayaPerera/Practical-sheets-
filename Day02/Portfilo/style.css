@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(92, 84, 84);
+    font-size: 16px;
+}
+
+/*tablets */
+@media (max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+
+
+}
+
+/*mobile phones*/
+@media(max-width: 480px){
+    body {
+        font-size: 12px;
+    }
+    h1{
+        font-size: 24px;
+    }
+}
+
+.class01{
+    background-color: rgb(166, 234, 211);
+    padding: 20px;
+    border: 10px gray;
+    text-align: center;
+}
+.profilepic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.class02{
+    background-color: white;
+    padding: 20px;
+    border: 10px gray;
+}
+
+.class03{
+    background-color: white;
+    padding: 20px;
+    border: 10px black;
+}
+.class04{
+
+    background-color: white;
+    padding: 20px;
+    border: 10px none;
+      border: 10px gray;
+
+}
+
+.class05{
+
+    background-color: white;
+    padding: 20px;
+      border: 10px gray;
+
+}
+.class06{
+
+    background-color: rgb(166, 234, 211);
+    padding: 20px;
+    border: 10px none;
+    text-align: center;
+      border: 10px gray;
+
+}

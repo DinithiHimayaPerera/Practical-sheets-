@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="PRACTICAL02design.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="1.png" alt="Profile Picture" class="profile-picture">
+        <h1>Dinithi Himaya</h1>
+        <p>Web Developer | Designer | Problem Solver</p>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="aboutMe">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer.</p>
+    </section>
+</body>
+</html>

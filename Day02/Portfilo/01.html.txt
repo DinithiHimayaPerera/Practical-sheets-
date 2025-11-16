@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+ </head>
+ <body>
+  <h1>Dinithi Himaya</h1>
+<br>
+  <p>I’m Dinithi Himaya, 22 years old, and currently studying at the University of Sri Jayewardenepura. I’m passionate about programming and always eager to learn new technologies and develop my skills.</p>
+<br>
+<hr/>
+  <h2>About Me</h2>
+<br>
+  <p>My name is Dinithi Himaya. I am a dedicated and hardworking student with a strong interest in programming, problem-solving, and technology. I enjoy learning new concepts, improving my coding skills, and applying them to practical projects such as system design and data analysis. I always strive to improve my knowledge and take on challenges that help me grow both academically and personally.</p>
+<br>
+<hr/>
+  <h3>Skills</h3>
+<br>
+  <ul>
+	<li>Programming in C and Python</li>
+	<li>Problem-solving and logical thinking</li>
+	<li>Report writing and documentation</li>
+	<li>Time management and teamwork</li>
+	<li>Data analysis and interpretation</li>
+  </ul>
+<h2>Projects</h2>
+<table border="1" cellspacing="0" cellpadding="8">
+<tr>
+ <th>Project Name</th>
+ <th>Description</th>
+ <th> Technology Used</th>
+ </tr>
+ <tr>
+ <td>Student Marks Analyzer</td>
+ <td>A program to calculate total, average, highest, lowest marks, and predict next score using a moving average.</td>
+ <td>C Programming</td>
+ </tr>
+ <tr>
+  <td>Logistics Management System</td>
+  <td>A menu-driven C program that manages cities, distances, and delivery requests efficiently.</td>
+  <td>C Programming</td>
+ </tr>
+<tr>
+ <td>Personal Portfolio Website</td>
+ <td>A responsive personal website showcasing skills, projects, and contact details.</td>
+ <td>HTML, CSS, JavaScript</td>
+</tr>
+</table>
+</hr>
+<h2>Contact Me</h2>
+<form>
+	<label for="name">Name :</lable><br>
+	<input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+	<label for="email">Email :</label><br>
+	<input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+	<label for="massage"Massage :</label><br>
+	<textarea id="massage" name="massage" rows="5" cols="40" placeholder="Type your massage here...." required></textarea><br><br>
+	
+	<input type="submit" value="Submit">
+</form>
+ </body>
+
+<footer>
+	<a href="https://www.w3schools.com/html/html_styles.asp">FaceBook</a><br>
+	<a href="https://www.w3schools.com/html/html_styles.asp>LinkedIn</a><br>
+
+</html>
+
+ 
