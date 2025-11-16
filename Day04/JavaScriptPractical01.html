@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        console.log("Hello World!");
+
+        console.log("2. Variable Declaration ");
+
+        console.log(y);
+        var y=20;
+        console.log(y);
+
+        let d=5;
+        console.log(d);
+        
+        let name01="Dinithi";
+        let age01= 22;
+        let country01 = "Sri Lanka";
+
+        console.log("Using let");
+        console.log("Name :",name01);
+        console.log("Age :",age01);
+        console.log("Country :",country01);
+
+        const name02="Himaya";
+        const age02= 23;
+        const country02 = "Canada";
+
+        console.log("Using const= they does not change");
+        console.log("Name :",name02);
+        console.log("Age :",age02);
+        console.log("Country :",country02);
+        
+        var name03="Himaya";
+        var age03= 23;
+        var country03 = "Canada";
+
+        console.log("Using var");
+        console.log("Name :",name03);
+        console.log("Age :",age03);
+        console.log("Country :",country03);
+
+        console.log("3.  Reassigning Variables ");
+
+        var name03="Sathmi";
+        var age03= 25;
+        var country03 = "USA";
+
+        console.log("Using var");
+        console.log("Name :",name03);
+        console.log("Age :",age03);
+        console.log("Country :",country03);
+
+        console.log("4. Basic Operators ");
+
+        let a=10;
+        let b=5;
+        let c=a+b;
+        let p=a-b;
+        let e=a*b;
+        let f=a%b;
+        let g=a/b;
+        var z=5;
+
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        console.log(p);
+        console.log(e);
+        console.log(f);
+        console.log(g);
+
+        console.log("5. Increment and Decrement");
+    
+        a++;
+        console.log("a++=",a);
+
+        b--;
+        console.log("b--=",b);
+
+        console.log("6. Comparison Operators ");
+
+        console.log(a<b);
+        console.log(a>b);
+        console.log(a==b);
+        console.log(a===z);
+
+        console.log("7. Logical Operators  ");
+
+        let w=true;
+        let x=false;
+        console.log(w && true);
+        console.log(w || x);
+        console.log(w=!x);
+
+        console.log(" 8. Variable Scope Operators  ");
+
+        function calculation(){
+            var salutation="Hello !";
+            console.log(salutation);
+        }
+
+        calculation();
+        salutation=30;
+        console.log(salutation);
+
+        console.log(typeof salutation);
+
+        const student= new Object();
+            student.fullName ="Dinithi Himaya";
+            student.age=22;
+            student.grade="A";
+            greet= calculation();
+      
+
+        console.log(student.age);
+        console.log(student.fullName);
+        console.log(student.grade);
+
+        console.log(student);
+
+        
+
+        console.log("11. Modify Object ");
+
+        student.grade="A+";
+        console.log(student.grade);
+
+        console.log("add a new property to object ");
+        student.city="London";
+        console.log(student);
+
+        console.log("create property from the  object ");
+
+        delete student.city;
+    
+       
+
+            let person={
+            personName :"Emma",
+            age:30,
+            greet: function(){
+                console.log("Hello, I am ${personName} ")
+            }
+        };
+
+        console.log(person);
+
+
+
+       
+        
+
+       
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+       
+
+
+
+        
+
+        
+
+
+
+
+    </script>
+</body>
+</html>
