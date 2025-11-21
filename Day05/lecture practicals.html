@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">JS DOM</h1>
+    <p id="text01" class="para">Testing 01</p>
+    <p class="para">Testing 02</p>
+
+    <button>Click Me</button>
+    <p>Testing 03</p>
+    <a id="mylink" href="https://google.com">Google</a>
+
+    <script>
+        let titleElement=document.getElementById("title")
+        titleElement.innerHTML="Change JS DOM";
+        titleElement.style.color="Green";
+        console.log(titleElement);
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="DOMstyle.css">
+</head>
+<body>
+    <h1>Button <span id="title">Not Clicked</span></h1>
+<button onclick="test()">Click Me</button>
+<script>
+  function test(){
+    const element=document.getElementById("title");
+    element.innerHTML="Clicked";
+    element.style.color="green";
+    
+
+  }
+</script>
+</body>
+</html>
