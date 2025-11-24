@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strenght Checker</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins' , sans-serif;
+        }
+
+        html,body{
+            display: grid;
+            height: 100%;
+            place-items: center;
+            text-align: center;
+            background-color: aliceblue;
+        }
+        .container{
+            width: 420px;
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 5px;
+        }
+        .container header{
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 33px;
+
+        }
+        .container form{
+            margin: 20px 5px 10px 5px;
+        }
+        form .field{
+            height: 45px;
+            width: 100%;
+            display: flex;
+        }
+        form .field input{
+            height: 100%;
+            width: 100%;
+            border: 1px solid lightgray ;
+            padding-left: 15px;
+            outline:  none;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+        form .field input:focus{
+            border-color: antiquewhite;
+            box-shadow: inset 0 0 3px #2fd072;
+        }
+
+    </style>
+   
+</head>
+<body>
+    <div class="container">
+        <header>Password Strenght Checker</header>
+        <form action="#">
+            <div class="field">
+                <input type="password" placeholder="Type Password">
+                <span class="showBtn">SHOW</span>
+            </div>
+            <div class="indicator">
+                <span class="weak">1</span>
+                <span class="medium">2</span>
+                <span class="strong">3</span>
+            </div>
+
+
+        </form>
+    </div>
+    <h1 id="title">Password Checker</h1>
+
+   
+
+
+
+    <script>
+       
+    </script>
+
+</body>
+</html>
