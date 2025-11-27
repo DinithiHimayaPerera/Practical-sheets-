@@ -28,5 +28,17 @@ document.getElementById("p2").textContent = `Your are ${age} years old`;
 document.getElementById("p3").textContent = `Your are a student: ${isStudent}`;
 
 
+let students=3;
+students++;
 
+console.log(students);
+
+let username;
+username=window.prompt("What is your name ?");
+console.log(username);
+
+document.getElementById("mySubmit").onclick=function(){
+    username=document.getElementById("myText").value;
+    document.getElementById("mySubmit").textContent='Hello ${username}';
+}
 
