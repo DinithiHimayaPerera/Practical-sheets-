@@ -1,0 +1,14 @@
+#catagories {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #579fde; /* Default color */
+    border: none;
+    border-radius: 5px;
+  
+  }
+  .selected {
+    background-color: #d4ee2c; /* Color after click */
+  
+}
+
